@@ -1,6 +1,7 @@
+mib: ZEBRA-MIB
 modules:
   os:
-    hardware: ESI-MIB::genProductNumber.0
-    serial: ESI-MIB::genSerialNumber.0
-    version: ESI-MIB::genVersion.0
+    hardware: ZEBRA-MIB::zbrGeneralModel.0
+    serial: ZEBRA-MIB::zbrGeneralUniqueId.0
+    version: ZEBRA-MIB::zbrGeneralFirmwareVersion.0
     sysDescr_regex: '/(?<features>(wireless|wired))/i'
